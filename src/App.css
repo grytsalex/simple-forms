@@ -1,0 +1,131 @@
+body {
+  background: #0e101c;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-hook-form {
+  margin-right: 50px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.form:not(:first-of-type) {
+  margin-top: 50px;
+}
+
+.formik {
+  background: aqua;
+  width: 500px;
+  border: 3px double #bf1650;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.formik-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.fields {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+  text-align: left;
+}
+
+.buttons {
+  margin-top: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.buttons button {
+  background: #282c34;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  margin: 10px 50px;
+}
+
+.trigger-form {
+  border: 1px groove whitesmoke;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: aquamarine;
+  width: 400px;
+  align-items: center;
+  color: #282c34;
+}
+
+.trigger-form input {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 20px;
+}
+
+p {
+  color: #bf1650;
+  margin-top: 5px;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
