@@ -1,7 +1,7 @@
 import React, {useCallback} from 'react';
 import { useFormik } from 'formik';
 import { validationSchema }  from './validationSchema';
-import '../../App.css';
+import '../../../App.css';
 
 export const  FormikForm = () => {
 

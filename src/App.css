@@ -129,3 +129,48 @@ p::before {
   display: inline;
   content: "⚠ ";
 }
+
+nav {
+  width: 100px;
+  height: 100%;
+  color: white;
+}
+nav a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 800px;
+  background: yellow;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: aliceblue;
+  margin-top: 200px;
+  height: 200px;
+  border: 2px groove rebeccapurple;
+  border-radius: 5px;
+}
+
+.input-email {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.input-password {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}

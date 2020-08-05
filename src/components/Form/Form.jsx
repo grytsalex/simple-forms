@@ -1,9 +1,8 @@
 import React from 'react'
+import { MyForm, MyFormWithWatch, FormWithTrigger } from './ReactFormHook/ReactFormHook.jsx';
+import { FormikForm } from './Formik/FormikForm.jsx';
 
-import { MyForm, MyFormWithWatch, FormWithTrigger } from './components/ReactFormHook/ReactFormHook.jsx';
-import { FormikForm } from './components/Formik/FormikForm.jsx';
-
-export const Form() {
+export const Form = () => {
   return (
     <div className="App">
         <div className="react-hook-form">
